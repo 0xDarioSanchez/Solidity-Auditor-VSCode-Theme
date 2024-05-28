@@ -1,7 +1,7 @@
 {
   "name": "solidity-auditor-theme",
-  "displayName": "sol-auditor-theme",
-  "description": "lm web3 safer",
+  "displayName": "Solidity Auditor Theme",
+  "description": "Dark theme for Solidity",
   "version": "1.0.0",
   "publisher": "DarioFSanchez",
   "repository": {
