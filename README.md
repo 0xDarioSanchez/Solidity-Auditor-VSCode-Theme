@@ -1,6 +1,6 @@
 # Visual Studio Theme for Solidity Auditors
 
-In order to make this theme works properly you need to install https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-visual-auditor
+Not all the features are fully compatible with other extensions like Slither and Solidity Visual Developer.
 
 To install this theme launch VS Code Quick Open (Ctrl+P), and paste:
 
