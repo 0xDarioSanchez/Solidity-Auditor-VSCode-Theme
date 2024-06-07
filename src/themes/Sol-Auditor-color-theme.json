@@ -2,7 +2,7 @@
 	"name": "Sol-Auditor",
 	"colors": {
 		"editor.background": "#12141c",
-		"editor.foreground": "#c1c5c5",
+		"editor.foreground": "#dbdbdb",
 		"sideBarTitle.foreground": "#b6b5b5",
 		"activityBar.background": "#1f2228",
 		"activityBar.foreground": "#d6dbe5",
@@ -132,7 +132,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#58b0d6"
+				"foreground": "#4ebceb"
 			}
 		},
 		{
@@ -179,7 +179,7 @@
 				"constant.numeric"
 			],
 			"settings": {
-				"foreground": "#7d9392"
+				"foreground": "#8da1a0"
 			}
 		},
 		
@@ -201,7 +201,7 @@
 				"entity.name.type"
 			],
 			"settings": {
-				"foreground": "#c1c5c5",
+				"foreground": "#dbdbdb",
 				//"fontStyle": "bold"
 			}
 		},
@@ -238,7 +238,7 @@
 			"name": "external visibility",						///// EXT VISIBILITY
 			"scope": "storage.type.modifier.keyword.extendedscope.solidity",
 			"settings": {
-				"foreground": "#c27715",
+				"foreground": "#d48114",
 				//"fontStyle": "bold"
 			}
 		},
@@ -254,7 +254,7 @@
 			"name": "function contract",						///// FUNCTIONS 
 			"scope": "entity.name.function.solidity",
 			"settings": {
-				"foreground": "#d3ca1a"
+				"foreground": "#dfd519"
 			}
 		},
 		{
@@ -445,7 +445,7 @@
 			"name": "constructor",
 			"scope": "storage.type.constructor.solidity",
 			"settings": {
-				"foreground": "#d3ca1a",
+				"foreground": "#dbd11a",
 				//"fontStyle": "bold"
 			}
 		},
@@ -453,7 +453,7 @@
 			"name": "fallback",
 			"scope": "storage.type.function.fallback.solidity",
 			"settings": {
-				"foreground": "#d3ca1a",
+				"foreground": "#dbd11a",
 				//"fontStyle": "bold"
 			}
 		},
@@ -461,7 +461,7 @@
 			"name": "receive",
 			"scope": "storage.type.function.receive.solidity",
 			"settings": {
-				"foreground": "#d3ca1a",
+				"foreground": "#dbd11a",
 				//"fontStyle": "bold"
 			}
 		},
@@ -710,7 +710,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#7d9392"
+				"foreground": "#8da1a0"
 			}
 		},
 		{
@@ -719,7 +719,7 @@
 				"constant.other.symbol"
 			],
 			"settings": {
-				"foreground": "#7d9392"
+				"foreground": "#8da1a0"
 			}
 		},
 		{

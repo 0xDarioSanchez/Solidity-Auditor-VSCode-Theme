@@ -2,7 +2,7 @@
   "name": "solidity-auditor-theme",
   "displayName": "Solidity Auditor Theme",
   "description": "Dark theme for Solidity",
-  "version": "3.0.0",
+  "version": "4.1.0",
   "publisher": "DarioFSanchez",
   "icon": "images/icon.png",
   "preview": true,
