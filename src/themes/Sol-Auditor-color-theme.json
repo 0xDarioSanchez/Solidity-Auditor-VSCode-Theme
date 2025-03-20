@@ -2,7 +2,7 @@
 	"name": "Sol-Auditor",
 	"colors": {
 		"editor.background": "#101219",
-		"editor.foreground": "#c1c5c5",
+		"editor.foreground": "#dfe1e1",
 		"sideBarTitle.foreground": "#b6b5b5",
 		"activityBar.background": "#1f2228",
 		"activityBar.foreground": "#d6dbe5",
@@ -201,7 +201,7 @@
 				"entity.name.type"
 			],
 			"settings": {
-				"foreground": "#c1c5c5",
+				"foreground": "#dbdbdb",
 				//"fontStyle": "bold"
 			}
 		},
@@ -261,7 +261,7 @@
 			"name": "modifier function",				///// MODIFIERS		/x
 			"scope": "entity.name.modifier.solidity",
 			"settings": {
-				"foreground": "#c1c5c5",
+				"foreground": "#dfe1e1",
 				//"fontStyle":"bold"
 			}
 		},
@@ -302,7 +302,7 @@
 			"name": "todos and dev notes",
 			"scope": "keyword.comment.todo.solidity",
 			"settings": {
-				"foreground": "#9a541f",
+				"foreground": "#a52d25",
 				//"fontStyle": "bold underline italic"
 			}
 		},
@@ -454,7 +454,7 @@
 			"name": "enum",
 			"scope": "entity.name.type.enum.solidity",
 			"settings": {
-				"foreground":"#c1c5c5",
+				"foreground":"#dfe1e1",
 				//"fontStyle": "bold"
 			}
 		},
