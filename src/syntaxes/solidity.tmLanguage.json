@@ -678,7 +678,7 @@
             ]
         },
         "comment-todo": {
-			"match": "(?i)\\b(FIXME|TODO|CHANGED|XXX|IDEA|HACK|NOTE|REVIEW|NB|BUG|QUESTION|COMBAK|TEMP|SUPPRESS|LINT|\\w+-disable|\\w+-suppress)\\b(?-i)",
+			"match": "(?i)\\b(FIXME|FIX|TODO|CHANGED|XXX|AUDIT|IDEA|HACK|NOTE|REVIEW|NB|BUG|QUESTION|COMBAK|TEMP|SUPPRESS|LINT|\\w+-disable|\\w+-suppress)\\b(?-i)",
 			"name": "keyword.comment.todo.solidity"
 		}
     },
