@@ -1,9 +1,11 @@
 {
   "name": "solidity-auditor-theme",
-  "displayName": "sol-auditor-theme",
-  "description": "lm web3 safer",
-  "version": "1.0.0",
+  "displayName": "Solidity Auditor Theme",
+  "description": "Dark theme for Solidity",
+  "version": "4.1.0",
   "publisher": "DarioFSanchez",
+  "icon": "images/icon.png",
+  "preview": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/SanchezDario/Solidity-Auditor-VS-Theme"
@@ -23,27 +25,27 @@
   "contributes": {
     "languages": [
       {
-          "id": "solidity",
-          "aliases": [
-              "solidity",
-              "solidity"
-          ],
-          "extensions": [
-              ".sol"
-          ],
-          "configuration": "./src/language-configuration.json"
+        "id": "solidity",
+        "aliases": [
+          "solidity",
+          "solidity"
+        ],
+        "extensions": [
+          ".sol"
+        ],
+        "configuration": "./src/language-configuration.json"
       }
-  ],
-  "grammars": [
+    ],
+    "grammars": [
       {
-          "language": "solidity",
-          "scopeName": "source.solidity.security",
-          "path": "./src/syntaxes/solidity.tmLanguage.json",
-          "injectTo": [
-              "source.solidity"
-          ]
+        "language": "solidity",
+        "scopeName": "source.solidity.security",
+        "path": "./src/syntaxes/solidity.tmLanguage.json",
+        "injectTo": [
+          "source.solidity"
+        ]
       }
-  ],
+    ],
     "themes": [
       {
         "label": "Sol-Auditor",

@@ -104,6 +104,14 @@
             "match": "(@author)\\b",
             "name": "storage.type.author.natspec"
         },
+        "natspec-tag-audit": {
+            "match": "(audit)\\b",
+            "name": "storage.type.audit.natspec"
+        },
+        "natspec-tag-@audit": {
+            "match": "(@audit)\\b",
+            "name": "storage.type.@audit.natspec"
+        },
         "natspec-tag-notice": {
             "match": "(@notice)\\b",
             "name": "storage.type.dev.natspec"
@@ -178,7 +186,7 @@
             ]
         },
         "operator-logic": {
-            "match": "(==|<(?!<)|<=|>(?!>)|>=|\\&\\&|\\|\\||\\:(?!=)|\\?)",
+            "match": "(==|!=|!==|<(?!<)|<=|>(?!>)|>=|\\&\\&|\\|\\||\\:(?!=)|\\?)",
             "name": "keyword.operator.logic.solidity"
         },
         "operator-mapping": {
@@ -679,6 +687,8 @@
         },
         "comment-todo": {
 			"match": "(?i)\\b(FIXME|TODO|CHANGED|XXX|AUDIT|IDEA|HACK|NOTE|REVIEW|NB|BUG|QUESTION|COMBAK|TEMP|SUPPRESS|LINT|\\w+-disable|\\w+-suppress)\\b(?-i)",
+			"match": "(?i)\\b(FIXME|FIX|TODO|CHANGED|XXX|AUDIT|IDEA|HACK|NOTE|REVIEW|NB|BUG|QUESTION|COMBAK|TEMP|SUPPRESS|LINT|\\w+-disable|\\w+-suppress)\\b(?-i)",
+
 			"name": "keyword.comment.todo.solidity"
 		}
     },
