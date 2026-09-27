@@ -54,8 +54,9 @@
 		"tab.inactiveBackground": "#22252b",
 		"titleBar.activeBackground": "#101318",
 		"titleBar.activeForeground": "#9da5b4",
-		"titleBar.inactiveBackground": "#3b485c",
+		"titleBar.inactiveBackground": "#101318",
 		"titleBar.inactiveForeground": "#9DA5B4",
+		"statusBar.inactiveBackground": "#131313",
 		"statusBar.debuggingForeground": "#FFFFFF",
 		"extensionButton.prominentBackground": "#2BA143",
 		"extensionButton.prominentHoverBackground": "#37AF4E",
@@ -319,7 +320,7 @@
 		},
 		{
 			"name": "audit notes 2",
-			"scope": "keyword.comment.audit.solidity",
+			"scope": "keyword.comment.todo.solidity",
 			"settings": {
 				"foreground": "#c02a16",
 			}
